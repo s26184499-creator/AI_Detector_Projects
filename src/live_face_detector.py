@@ -39,7 +39,7 @@ while True:
     key = cv2.waitKey(1)
 
     # If the key pressed is 'Q' or 'q' (ASCII codes 81 and 113), exit the loop
-    if key == 81 or key == 113:
+    if key == 81 or key == 113: 
         # Release the webcam so it's available for other apps
         webcam.release()
 
